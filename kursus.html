@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Kursus</title>
+</head>
+
+<body>
+    <div class="container card pt-3">
+        <div class="row">
+            <div class="col-12">
+                <h1>LEMBAGA KURSUS KOMPUTER ANDA PASTI BISA</h1>
+            </div>
+        </div>
+        <hr>
+        <form action="pendaftaran.php" method="POST">
+            <table>
+                <tr>
+                    <td>Nama Peserta</td>
+                    <td style="padding: 8px;"><input type="text" id="nama" name="pembeli"></td>
+                </tr>
+                <tr>
+                    <td>Pilih Paket Kursus</td>
+                    <td style="padding: 8px;">
+                        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="Web Programming"
+                            name="paket">Web Programming<br>
+                        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="Java"
+                            name="paket">Java<br>
+                        <input class="form-check-input" type="radio" id="inlineCheckbox3" value="Mobile Programming"
+                            name="paket">Mobile Programming<br>
+                        <input class="form-check-input" type="radio" id="inlineCheckbox4" value="Phyton"
+                            name="paket">Phyton
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pilih Waktu Kursus</td>
+                    <td style="padding: 8px;">
+                        <select name="waktu" id="waktu">
+                            <option value="pagi/siang">pagi/siang</option>
+                            <option value="sore/malem">sore/malem</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <input type="submit" value="kirim" name="bayar" class="btn-success px-3 py-1">
+                        <input type="reset" value="reset" name="reset" class="btn-success px-3 py-1">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
